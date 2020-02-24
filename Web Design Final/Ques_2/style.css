@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 960px;
+    height: 250px;
+    background-color: lightgray;
+    border: 1px solid #000;
+    margin: 0 auto;
+}
+.col{
+    display: flex;
+    /* padding: 10px; */
+}
+.text_1 p, .text_2 p, .text_3 p{
+    padding: 0 10px 0 10px;
+    margin: 0;
+}
+.col .text_1{
+    border-right:1px solid black ;
+}
+.col .text_2{
+    border-right:1px solid black ;
+}

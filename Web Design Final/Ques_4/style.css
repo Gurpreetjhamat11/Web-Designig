@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.item_1 { 
+    grid-area: nav; 
+    background-color: cornflowerblue;
+}
+.item_2 { 
+    grid-area: left; 
+    background-color: chocolate;}
+.item_3 { 
+    grid-area: right; 
+    background-color: rgb(35, 61, 110);}
+.item_4 { 
+    grid-area: footer; 
+    background-color: crimson;
+}
+ 
+
+.grid {
+  display: grid;
+  grid-template-areas:
+    'nav nav nav nav nav nav'
+    'left left right right right right'
+    'footer footer footer footer footer footer';
+  padding: 10px;
+  color: #fff;
+}
+
+.grid  div {
+  text-align: center;
+  padding: 40px 0;
+  font-size: 30px;
+}
