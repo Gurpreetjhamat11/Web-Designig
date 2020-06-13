@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+ 
+.container{
+    height: 100vh;
+}
+  
+.nav {
+    overflow: hidden;
+    background-color: #666370;
+    height: 8vh;
+}
+  
+.nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    height: 8vh;
+}
+  
+.nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+.nav a.selected {
+    background-color: #1c1f33;
+    color: white;
+}
+
+.header{
+    background: url('background.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 92vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transform: 50% 50%;
+    color: #fff;
+}
+
+
+.header h1 {
+    font-size: 60px;
+}
+.split{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    
+}
+
+.left{
+    width: 50%;
+    background-color: #1c1f33;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+.right{
+    width: 50%;
+    background-color: #a2a7c9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+button{
+    padding: 10px 20px;
+    background:  #666370;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+}
+
+button:hover{
+    background: #fff;
+    color: #666370;
+}
