@@ -134,6 +134,7 @@ h1{
     text-align: center;
     justify-content: center;
     height: 80vh;
+    position: relative;
 }
 #main-3 section{
     display: flex;
@@ -187,6 +188,7 @@ footer{
     color: #000;
     background-color: #fff;
     text-align: center;
+    
 }
 
 #main{
@@ -203,3 +205,14 @@ footer{
 @media(min-width:568px){
   /*.open-slide{display:none}*/
 }
+
+/* aside#sidebar{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+
+article#main-col{
+    float: left;
+    width: 65%;
+} */
