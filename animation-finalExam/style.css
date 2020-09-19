@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@700&family=Lobster&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lobster", cursive;
+}
+
+.slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to left, #ba7453, #d1a984);
+  z-index: -1;
+}
+header {
+  height: 100vh;
+}
+nav {
+  display: grid;
+  grid-template-columns: 10% 1fr 1fr 10%;
+  min-height: 10vh;
+  color: #fff;
+  align-items: center;
+}
+
+#logo {
+  grid-column: 2/3;
+}
+
+svg {
+  justify-self: end;
+}
+section {
+  display: flex;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero {
+  height: 60%;
+  width: 100%;
+  position: relative;
+}
+
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.headline {
+  position: absolute;
+  top: 68%;
+  left: 10%;
+  font-size: 5rem;
+  transform: translate(-20%, -70%);
+  color: #fff;
+  z-index: 3;
+}
+
+.hero::after {
+  content: "";
+  background: #000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
+}
+
+.scroll {
+  /* position: absolute; */
+  background: #496a81;
+  display: flex;
+  /* z-index: -2; */
+  /* top: 100%;
+  left: 0; */
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scrollColor{
+    background: #000;
+}
+.scroll div {
+  width: 40%;
+}
+
+.scroll div p {
+  color: #fff;
+  font-size: 1rem;
+  padding: 20px;
+  font-family: "Heebo", sans-serif;
+  line-height: 1.5;
+}
+
+.reveal {
+  position: relative;
+  color: #fff;
+  font-size: 2.5rem;
+  padding: 0 10px;
+  font-weight: 500;
+  transform-origin: left;
+  transform: scale(0);
+  transition: 0.5s;
+  transition-delay: 0.5s;
+}
+.scroll .reveal:nth-child(2) {
+  font-weight: 300;
+  font-size: 1.5rem;
+  margin-top: 5px;
+  letter-spacing: 2px;
+  display: inline-block;
+  font-family: "Heebo", sans-serif;
+}
+.scroll .reveal::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #e02bff;
+  transform-origin: right;
+  transition: 0.5s;
+  transition-delay: 0s;
+}
+
+.scroll .reveal:nth-child(2)::before {
+  background: #ffeb3b;
+}
+.scroll .reveal.active::before {
+  transform: scale(0);
+  transition-delay: 0s;
+}
+.scroll .reveal.active {
+  transform: scale(1);
+}
+.scroll img {
+  position: relative;
+  left: -100px;
+  display: block;
+  margin-left: 10px;
+  margin-top: 20px;
+  max-width: 500px;
+  opacity: 0;
+}
+
+.scroll img.active {
+  left: 0;
+  opacity: 1;
+}
