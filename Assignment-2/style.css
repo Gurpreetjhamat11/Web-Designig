@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.first, .second{
+    padding: 10px;
+}
+
+#slide,
+#slideDiv {
+  padding: 5px;
+  text-align: center;
+  background-color: #315659;
+  border: solid 1px #252424;
+   color: #fff;
+}
+
+#slideDiv {
+  padding: 50px;
+  display: none;
+ 
+}
+
+
+.textDiv {
+  margin-top: 10px;
+  background: lightslategray;
+  height: 150px;
+  width: 250px;
+  position: absolute;
+  margin-left: 10px;
+  /* color: #fff; */
+}
+
+button {
+  padding: 5px 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  color: white;
+  background: lightseagreen;
+  border: none;
+}
