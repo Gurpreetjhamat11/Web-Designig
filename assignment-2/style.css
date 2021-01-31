@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+table {
+  width: 60%;
+  height: 200px;
+  /* margin: 0 auto; */
+  border: 2px solid black;
+}
+th{
+  text-align: left;
+}
+table tr td {
+  color: black;
+  background: #f7f9f9;
+}
+.dark{
+  background: #312f2f;
+  color: white;
+}
+.extra{
+  width: 100%;
+  height: 40vh;
+  background: rgb(107, 194, 136);
+}
+
+/* table tr:nth-child(even) {
+  background-color: #acaaaa;
+}
+table tr td:nth-child(0) {
+  font-weight: bold;
+
+} */
+
