@@ -1,0 +1,58 @@
+[
+    {
+        "id": "e2d20351-c6a8-49f2-b75f-93cf039b007e",
+        "imageName": "pepsi.jpg",
+        "itemName": "Pepsi",
+        "price": "$6.99",
+        "productUrl": "https://www.metro.ca/en/online-grocery/aisles/beverages/soft-drinks/diet-cola/soft-drink/p/069000004289"
+    },
+    {
+        "id": "e2d20351-c6a8-49f2-b75f-93cf039b007k",
+        "imageName": "coke.jpg",
+        "itemName": "Coca Cola",
+        "price": "$6.99",
+        "productUrl": "https://www.metro.ca/en/online-grocery/aisles/beverages/soft-drinks/cola/soft-drink/p/067000104831"
+    },
+    {
+        "id": "e2d20351-c6a8-49f2-b75f-93cf039b007l",
+        "imageName": "cheese.jpg",
+        "itemName": "Cheese",
+        "price": "$5.99",
+        "productUrl": "https://www.metro.ca/en/online-grocery/aisles/dairy-eggs/packaged-cheese/cheese-blocks/mozzarella-cheese/p/059749943642"
+    },
+    {
+        "id": "e2d20351-c6a8-49f2-b75f-93cf039b007s",
+        "imageName": "eska.jpg",
+        "itemName": "Eska Water",
+        "price": "$4.99",
+        "productUrl": "https://www.metro.ca/en/online-grocery/aisles/beverages/water/bottled-water/natural-spring-water/p/671785501800"
+    },
+    {
+        "id": "e2d20351-c6a8-49f2-b75f-93cf039b007w",
+        "imageName": "kitkat.jpg",
+        "itemName": "KitKat",
+        "price": "$1.99",
+        "productUrl": "https://www.metro.ca/en/online-grocery/aisles/snacks/sweet-snacks-candy/chocolate/chocolate-bar/p/059800000031"
+    },
+    {
+        "id": "e2d20351-c6a8-49f2-b75f-93cf039b007a",
+        "imageName": "milk.jpg",
+        "itemName": "Milk",
+        "price": "$3.99",
+        "productUrl": "https://www.metro.ca/en/online-grocery/aisles/dairy-eggs/milk-cream-butter/2-whole-milk/2-milk/p/068200010120"
+    },
+    {
+        "id": "e2d20351-c6a8-49f2-b75f-93cf039b007b",
+        "imageName": "onion.jpg",
+        "itemName": "Yellow Onion",
+        "price": "$6.99",
+        "productUrl": "https://www.metro.ca/en/online-grocery/aisles/fruits-vegetables/vegetables/onions-leeks/yellow-onions/p/059749900133"
+    },
+    {
+        "id": "e2d20351-c6a8-49f2-b75f-93cf039b007u",
+        "imageName": "tomatoes.jpg",
+        "itemName": "Red Tomatoes",
+        "price": "$6.99",
+        "productUrl": "https://www.metro.ca/en/online-grocery/aisles/fruits-vegetables/vegetables/tomatoes-cucumber/red-cluster-tomatoes/p/4664"
+    }
+]

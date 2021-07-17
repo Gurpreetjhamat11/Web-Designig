@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="navbar">
+        <nav>
+            <img src="/img/logo-metro.png" alt="">
+            <div class="nav_center">
+                <ul>
+                    <li><a href="/indexl">Home</a></li>
+                    <li><a href="/addItem">Add Item</a></li>
+                    <li><a href="/updateItem">Update Item</a></li>
+                    <li><a href="/deleteItem">Delete Item</a></li>
+                </ul>
+            </div>
+            <button>Logout</button>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="form">
+            <form action="/upload" method="POST" enctype="multipart/form-data">
+                <label for="">Item Name:</label>
+                <input type="text"> <br>
+
+                <label for="">Price:</label>
+                <input type="text"> <br>
+
+                <label for="">URL:</label>
+                <input type="text"> <br>
+
+                <!-- <label for="">Select Image:</label>
+                <input type="file" id="img" name="img" accept="image/*"> -->
+
+                <label for="">Select Image:</label>
+                <input type="file" name="file" id="">
+                <button>upload </button>
+            </form>
+        </div>
+        <script src="/js/main.js"></script>
+</body>
+
+</html>

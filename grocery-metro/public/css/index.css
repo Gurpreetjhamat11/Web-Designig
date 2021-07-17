@@ -1,0 +1,96 @@
+body { 
+    margin: 0; 
+    padding: 0; 
+    font-family: sans-serif; 
+    background: lightgrey; 
+}
+
+.navbar{
+    width: 100%;
+    flex-grow: 1;
+    background: #505050;
+    color: #fff;
+}
+
+nav{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between
+}
+.nav_center{
+    flex-grow: 2
+}
+nav img{
+    width: 120px;
+}
+
+.nav_center ul li{
+ display: inline;
+ padding: 0 20px;
+ cursor: pointer;
+}
+.nav_center ul li a{
+    text-decoration: none;
+    color: #fff
+}
+.nav_center ul li a:hover{
+    text-decoration: underline;
+}
+.nav_center button{
+    /* float: right; */
+    margin-left: auto;
+}
+
+.search{
+    width: 100%;
+}
+
+.search input{
+    width: 50%;
+    margin: 30px 25%;
+    padding: 10px;
+    border-radius:5px;
+    border: none 
+}
+.conatiner{
+    width: 100%
+}
+#allItems{
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.item{
+    width: 280px;
+    height: 400px;
+    margin: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background: #fff;
+}
+.item h3, h4{
+    margin: 5px;
+}
+
+.imgItem img{
+    width: 100%
+}
+
+.item button{
+    padding: 10px;
+    width: 150px;
+    background: #000;
+    color: #fff
+}
+
+.item button a{
+    text-decoration: none;
+    color: #fff;
+    border: none;
+}
